@@ -47,8 +47,8 @@ background-position:center;
 }
 
 body .navbar{
-    position: absolute;
-    top: 85%;
+    position: relative;
+    top: 65%;
     padding-top: 5 0 5 0;
     background-color:white;
 }
