@@ -1,0 +1,13 @@
+body{
+    background: grey url(/img/Circus.jpg);
+    background-size: cover;
+    background-position: 100%;
+}
+.links{
+    display: inline-block;
+    list-style: none;
+}
+h1{
+   font-family: 'Sancreek', cursive;
+    font-size: 75;
+}
