@@ -1,5 +1,5 @@
 body{
-    background: grey url(/img/Circus.jpg) no-repeat;
+background: white url(/img/background.jpg) no-repeat;
 background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -7,21 +7,40 @@ background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
 }
-.links{
-    display: inline-block;
-    list-style: none;
-}
+
 h1{
-   font-family: 'Sancreek', cursive;
-    font-size: 65;
-    text-align: center;
-    color: e7ae22;
+   font-family: 'Sancreek', cursive;   
+   color: e7ae22;
+   text-align: center;
 }
-h3{
+h4{
     font-family: veranda, geneva;
     text-align: center;
     color: 7c7b79;
 }
-.nav-navbar{
-    background-color:white;
+
+.container-fluid img{
+    margin: 0 -15 0 -15;
+    width: 103%;
 }
+.lights img{
+    height: 25%;
+}
+.navbar img{
+    height: 10%;
+}
+.navbarwrapper {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 800px;
+}
+.navbar{
+    padding: 10px;
+    float:left;
+    width:100%;
+}
+.navbar li{float:left}
+.navbar li a{text-decoration:none}
+.navbar li a:hover{text-decoration:underline}
