@@ -7,40 +7,68 @@ background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
 }
-
-h1{
+.container-fluid { 
+        background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 0;
+	text-align: center;
+    
+}
+#banner img{
+  background-image:
+    linear-gradient(
+      to bottom, 
+      black, transparent
+    );
+}
+.container-fluid h1 {
    font-family: 'Sancreek', cursive;   
    color: e7ae22;
-   text-align: center;
 }
-h4{
-    font-family: veranda, geneva;
-    text-align: center;
+ .container-fluid h4{
+    font-family: veranda, geneva;  
     color: 7c7b79;
 }
 
 .container-fluid img{
+    position: fixed;
     margin: 0 -15 0 -15;
     width: 103%;
+    display: block;
 }
-.lights img{
-    height: 25%;
-}
-.navbar img{
-    height: 10%;
+.white-space{
+   width: 100%;
+   height: 400px; 
 }
 .navbarwrapper {
+    color: white;
     margin-bottom: 10px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     min-width: 800px;
 }
-.navbar{
-    padding: 10px;
-    float:left;
-    width:100%;
+.navbar-fluid img{
+    height: 15%;
 }
-.navbar li{float:left}
-.navbar li a{text-decoration:none}
-.navbar li a:hover{text-decoration:underline}
+.navbar-fluid{
+    
+    /*float:left;*/
+    width:100%;    
+    margin-top:440px;
+    /*top: 340px;*/
+    padding-top: 4px;
+    margin-bottom: 6px;
+
+}
+
+.navbar-fluid li{display:inline}
+.navbar-fluid li{display:center}
+.navbar-fluid li a{text-decoration:none}
+.navbar-fluid li a:hover{text-decoration:underline}
+.links span{
+    margin: 0 10 0 10;
+}
