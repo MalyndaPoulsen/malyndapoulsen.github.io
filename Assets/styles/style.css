@@ -45,41 +45,12 @@ background-position:center;
    width: 100%;
    height: 400px; 
 }
-/*.nav-navbar {
-    position: relative;
-    color: white;
-    margin-bottom: 10px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-   
-}
-.navbar img{
-    height: 15%;
-}
-.navbar-fluid{
-    
-    float:left;
-    width:100%;    
-    margin-top:440px;
-    /*top: 340px;*/
-    /*padding-top: 4px;
-    margin-bottom: 6px;
 
-}*/
-/*
-.navbar li{display:inline}
-.navbar li{display:center}
-.navbar li a{text-decoration:none}
-.navbar li a:hover{text-decoration:underline}
-.links span{
-    margin: 0 10 0 10;
-}
-*/
 body .navbar{
     position: absolute;
-    top:80%;
-    
+    top: 85%;
+    padding-top: 5 0 5 0;
+    background-color:white;
 }
 li{
    border: 1px solid darkred 
