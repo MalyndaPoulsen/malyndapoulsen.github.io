@@ -1,15 +1,21 @@
-body{
-background: black url(/img/background2.jpg) no-repeat;
-background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
+html,body{
+  margin:0;
+  padding:0;
 }
 
-.header{
-   background-color: black; 
+#main{
+  background: black url(/img/background2.jpg);
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:0% 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:97px;
 }
 
 #banner{
@@ -20,9 +26,12 @@ background-position:center;
       black, transparent
     );
 }
+
 #banner h1 {
    font-family: 'Sancreek', cursive;   
    color: e7ae22;
+   margin-top:0;
+   padding-top:10px;
 }
 #banner h4{
     font-family: veranda, geneva;  
@@ -45,7 +54,14 @@ footer{
   bottom: 0;
   left: 0;
   right:0;
+  max-height: 100px;
+  min-height: 100px;
 }
+
+footer .navbar{
+    margin:0;
+}
+
 .navbar.center .navbar-inner {
     text-align: center;
 }
@@ -60,10 +76,19 @@ footer{
 }
 
 @media (max-width: 768px){
+  
+  #main{
+    bottom:0px;
+  }
+  footer{
+    max-height: 50px;
+    min-height: 50px;
+  }
+  
   .navbar-collapse{
     position: fixed;
     right: 80px;
-    bottom: 45px;
+    bottom: 0px;
     background-color: rgba(230, 221, 221, 0.72);
   }
   
@@ -71,8 +96,13 @@ footer{
     float:none;
   }
   
-  .navbar-default .navbar-collapse, 
-  .navbar-default .navbar-form {
+  .navbar-default{
+    background:none;
+    border: none;
+  }
+  
+  .navbar .navbar-collapse, 
+  .navbar .navbar-form {
     border: none;
   }
 }
