@@ -7,8 +7,11 @@ background-repeat:no-repeat;
 background-size:cover;
 background-position:center;
 }
+.header{
+   background-color: black; 
+}
 .container-fluid { 
-        background: black;
+
 	position: fixed;
 	top: 0;
 	left: 0;
