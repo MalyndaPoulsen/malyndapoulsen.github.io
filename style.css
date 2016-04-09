@@ -117,10 +117,10 @@ footer .navbar{
 }
 
 .nav-tickets img{
-  height: 75px;
+  height: 100px;
 }
 .navbar li{
-     border: 1px solid darkred;
+  border: 1px solid darkred;
 }
 .navbar li a{text-decoration:none}
 .navbar li a:hover{text-decoration:underline}
