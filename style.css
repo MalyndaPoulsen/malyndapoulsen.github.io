@@ -27,7 +27,7 @@ html,body{
     );
 }
 
-#banner h1 {
+#banner h1{
    font-family: 'Sancreek', cursive;   
    color: e7ae22;
    margin-top:0;
@@ -38,13 +38,12 @@ html,body{
     color: 7c7b79;
 }
 
-
 .lights1{
-    /*position: fixed;*/
+    position: fixed;
     margin: 0 -15 0 -15;
-    width: 700px;
-    /*display: block; */
     height: 50px;
+    width: 700px;
+    display: block; 
     float: left;
     background-image:url('img/lights.png');
 }
@@ -53,7 +52,7 @@ html,body{
     cursor: pointer;
 }
 .lights1:active {
-    background-image:url('img/lights.png');
+    background-image:url('img/leftlighton.png');
 }
 .lights2{
     position: fixed;
@@ -67,20 +66,22 @@ html,body{
     cursor: pointer;
 }
 .lights2:active {
-    background-image:url('img/lights.png');
+    background-image:url('img/centerlighton.png');
 }
 .lights3{
     position: fixed;
     margin: 0 -15 0 -15;
     width: 103%;
+    display: inline-block;
+     background-image:url('img/rightlighton.png');
 }
-#banner img{
+
+/*#banner img{
     position: fixed;
     width: 100%;
     display: block;
     background-image: url('img/lights.png');
-}
-
+}*/
 .lights3:hover {
     background-image:url('img/rightlighton.png');
     cursor: pointer;
@@ -118,7 +119,9 @@ footer .navbar{
 .nav-tickets img{
   height: 75px;
 }
-
+.navbar li{
+     border: 1px solid darkred;
+}
 .navbar li a{text-decoration:none}
 .navbar li a:hover{text-decoration:underline}
 .container .full-width {
@@ -141,6 +144,7 @@ footer .navbar{
     right: 80px;
     bottom: 0px;
     background-color: rgba(230, 221, 221, 0.72);
+    
   }
   
   .navbar-collapse .nav.nav-pills > li{
