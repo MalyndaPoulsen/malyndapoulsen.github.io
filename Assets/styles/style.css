@@ -1,5 +1,5 @@
 body{
-background: white url(/img/background.jpg) no-repeat;
+background: black url(/img/background2.jpg) no-repeat;
 background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
@@ -40,29 +40,6 @@ background-position:center;
    height: 400px; 
 }
 
-/*body .navbar{
-    position: absolute;
-    top: 85%;
-    padding-top: 5 0 5 0;
-    background-color:white;
-}
-
-li{
-   border: 1px solid darkred 
-}
-#nav-secondary img{
-    height: 15%;
-}
-
-#nav-secondary ul{
-    display:inline;
-    display:center;     
-}
-.navbar li a{text-decoration:none}
-.navbar li a:hover{text-decoration:underline}
-.container .full-width {
-  width: auto;
-}*/
 footer{
   position: fixed;
   bottom: 0;
