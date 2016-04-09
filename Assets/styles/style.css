@@ -1,14 +1,11 @@
 body{
-background: white url(/img/background.jpg) no-repeat;
+background: black url(/img/background.jpg) no-repeat;
 background-repeat:no-repeat;
 -webkit-background-size:cover;
 -moz-background-size:cover;
 -o-background-size:cover;
 background-size:cover;
 background-position:center;
-}
-.header{
-   background-color: black; 
 }
 .container-fluid { 
 	position: fixed;
@@ -19,11 +16,14 @@ background-position:center;
 	text-align: center;
     
 }
-#banner img{
+/*#banner{
+   background-color: black; */
+
+#banner{
   background-image:
     linear-gradient(
       to bottom, 
-      black, transparent
+      red, transparent
     );
 }
 .container-fluid h1 {
@@ -56,12 +56,14 @@ li{
    border: 1px solid darkred 
 }
 #nav-secondary img{
-    height: 15%;
+    height: 20%;
 }
 
 #nav-secondary ul{
-    display:inline;
-    display:center;     
+   display: inline;
+    display:center; 
+    max-height: 30px;
+        
 }
 .navbar li a{text-decoration:none}
 .navbar li a:hover{text-decoration:underline}
