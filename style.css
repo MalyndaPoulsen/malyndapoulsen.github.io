@@ -44,7 +44,7 @@ html,body{
     position: relative;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('img/lights_right_on.png');
+    background-image: url('img/lights_off.png');
 }
 
 .lights-wrapper img{
