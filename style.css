@@ -44,11 +44,23 @@ html,body{
     position: relative;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('img/lights.png');
+    background-image: url('img/lights_right_on.png');
+}
+
+.lights-wrapper img{
+  opacity: 0;
 }
 
 .lights-wrapper.light-left-on{
-    background-image: url('img/leftlighton.png');
+    background-image: url('img/lights_left_on.png');
+}
+
+.lights-wrapper.light-center-on{
+    background-image: url('img/lights_center_on.png');
+}
+
+.lights-wrapper.light-right-on{
+    background-image: url('img/lights_right_on.png');
 }
 
 .light-left{
@@ -56,52 +68,31 @@ html,body{
     width: 4%;
     height: 48%;
     left: 22%;
-    top: 29%;
+    top: 27%;
     z-index: 5;
+    /*background:red;*/
 }
 
-.lights1:hover {
-    background-image:url('img/leftlighton.png');
-    cursor: pointer;
-}
-.lights1:active {
-    background-image:url('img/leftlighton.png');
-}
-.lights2{
-    position: fixed;
-    margin: 0 -15 0 -15;
-    width: 103%;
-    display: block;
-    background-image:url('img/lights.png');
-}
-.lights2:hover {
-    background-image:url('img/centerlighton.png');
-    cursor: pointer;
-}
-.lights2:active {
-    background-image:url('img/centerlighton.png');
-}
-.lights3{
-    position: fixed;
-    margin: 0 -15 0 -15;
-    width: 103%;
-    display: inline-block;
-     background-image:url('img/rightlighton.png');
+.light-center{
+    position: absolute;
+    width: 4%;
+    height: 71%;
+    left: 49%;
+    top: 27%;
+    z-index: 5;
+    /*background: green;*/
 }
 
-/*#banner img{
-    position: fixed;
-    width: 100%;
-    display: block;
-    background-image: url('img/lights.png');
-}*/
-.lights3:hover {
-    background-image:url('img/rightlighton.png');
-    cursor: pointer;
+.light-right{
+    position: absolute;
+    width: 4%;
+    height: 55%;
+    left: 76%;
+    top: 27%;
+    z-index: 5;
+    /*background: orange;*/
 }
-.lights3:active {
-    background-image:url('img/lights.png');
-}
+
 .white-space{
    width: 100%;
    height: 400px; 
