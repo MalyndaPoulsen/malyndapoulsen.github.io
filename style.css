@@ -110,6 +110,9 @@ footer .navbar{
 .navbar.center .navbar-inner {
     text-align: center;
 }
+.nav-pills>li.active>a{
+    background-color: white !important;
+}
 
 .navbar.center .navbar-inner .nav {
     display:inline-block;
@@ -160,5 +163,10 @@ footer .navbar{
   .navbar .navbar-form {
     border: none;
   }
+}
+footer #contact{
+    background-color: grey;
+    /*display:inline-block;*/
+    text-align: center;
 }
 
